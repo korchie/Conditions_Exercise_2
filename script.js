@@ -1,8 +1,8 @@
-let name1 = "Paul";
-let name2 = "Pole";
-let name3 = "PIkachu";
+let name1 = "Paula";
+let name2 = "Dale";
+let name3 = "Lisa";
 
-if (name1.length === name2.length === name3.length) {
+if (name1.length === name2.length && name3.length) {
     console.log(`${name1}, ${name2}, and ${name3} are the same length.`)
 
 } else if (name1.length === name2.length + !name3.length) {
@@ -20,4 +20,4 @@ if (name1.length === name2.length === name3.length) {
 } else if (name3.length > name1.length && name2.length) {
     console.log(name3 + " has the longest name.")
  
-}
+} // else if ()
